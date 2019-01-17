@@ -3,11 +3,15 @@
 
 # util-check-renovate
 
-Check renovate settings for repos
+Check renovate settings for repos.
+
+If a file does not match the template the template is copied to clipboard and the repo is opened in your browser.
 
 # Usage
 
-Start with collecting the repos
+Make sure the [template](data/template.json) is correct.
+
+Start with collecting the repos.
 
 ```
 $ npm run save-repos
