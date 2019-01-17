@@ -1,0 +1,33 @@
+{
+  "name": "util-check-renovate",
+  "version": "1.0.0",
+  "description": "Check renovate settings for repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && npm audit",
+    "start": "node index.js",
+    "save-repos": "node lib/save-repos.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telemark/util-check-renovate.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telemark/util-check-renovate/issues"
+  },
+  "homepage": "https://github.com/telemark/util-check-renovate#readme",
+  "dependencies": {
+    "axios": "0.18.0",
+    "opn": "5.4.0"
+  },
+  "devDependencies": {
+    "standard": "12.0.1"
+  },
+  "engines": {
+    "node": ">= 10.15.0"
+  }
+}
