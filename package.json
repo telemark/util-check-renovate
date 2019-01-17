@@ -1,6 +1,6 @@
 {
   "name": "util-check-renovate",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Check renovate settings for repos",
   "main": "index.js",
   "scripts": {
