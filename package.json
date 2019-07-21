@@ -26,7 +26,7 @@
     "opn": "5.5.0"
   },
   "devDependencies": {
-    "standard": "12.0.1"
+    "standard": "13.1.0"
   },
   "engines": {
     "node": ">= 10.15.2"
