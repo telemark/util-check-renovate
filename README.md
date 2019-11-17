@@ -11,6 +11,12 @@ If a file does not match the template the template is copied to clipboard and th
 
 Make sure the [template](data/template.json) is correct.
 
+Add an local `.env``
+
+```
+REPOS_URL=https://api.github.com/orgs/telemark/repos
+```
+
 Start with collecting the repos.
 
 ```
