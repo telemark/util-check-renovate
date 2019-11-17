@@ -7,13 +7,16 @@
     "test": "standard && npm audit",
     "start": "node index.js",
     "save-repos": "node lib/save-repos.js",
-    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "standard:fix": "standard --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/telemark/util-check-renovate.git"
   },
-  "keywords": [],
+  "keywords": [
+    "utility",
+    "renovate"],
   "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
   "license": "MIT",
   "bugs": {

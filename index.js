@@ -2,7 +2,7 @@
   const opn = require('opn')
   const clipboardy = require('clipboardy')
   const { writeFile } = require('fs').promises
-  let repos = require('./data/repos.json')
+  const repos = require('./data/repos.json')
   const template = require('./data/template.json')
   const getRenovate = require('./lib/get-renovate-json')
   console.log(`got ${repos.length} repos`)
